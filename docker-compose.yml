@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  kuaidi100_callback:
+    build:
+      context: .
+    container_name: kuaidi100_callback
+    environment:
+      xx: ''
+    restart: always
+    ports:
+      - "127.0.0.1:5000:5000"
